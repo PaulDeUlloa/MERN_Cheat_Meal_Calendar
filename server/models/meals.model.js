@@ -1,16 +1,20 @@
-// const mongoose = require("mongoose");
+const mongoose = require("mongoose");
 
-// const AuthorSchema = new mongoose.Schema(
-//   {
-//     name: {
-//       type: String,
-//       required: [true, "Name is required."],
-//       minLength: [3, "Authors name must be 3+ characters"],
-//     },
-//   },
-//   { timestamps: true }
-// );
+const MealSchema = new mongoose.Schema(
+  {
+    name: {
+      type: String,
+      required: [true, "Name is required."],
+      minLength: [3, "Meals name must be 2+ characters"],
+    },
+    date: {
+      type: Date,
+      required: [true, "Date is required."],
+    },
+  },
+  { timestamps: true }
+);
 
-// const Author = mongoose.model("Author", AuthorSchema);
+const Meal = mongoose.model("Meal", MealSchema);
 
-// module.exports = Author;
+module.exports = Meal;
