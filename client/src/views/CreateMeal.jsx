@@ -16,7 +16,7 @@ const CreateMeal = () => {
     const submitHandler = (e) => {
         e.preventDefault();
 
-        axios.post(`http://localhost:8000/api/meals`, {name})
+        axios.post(`http://localhost:8000/api/meals`, {name, date})
         .then(() => navigate("/meals"))
         .catch((err)=>{
             const errResponse = err.response.data.errors;

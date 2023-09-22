@@ -21,6 +21,7 @@ const UpdateMeal = () => {
         .then((res) =>{
             const oneMeal = res.data;
             setName(oneMeal.name);
+            setDate(oneMeal.date);
         })
         .catch((err) => console.log(err));
         

@@ -7,8 +7,13 @@ const NavBar = () => {
             <div class="container text-end">
             <h1>Cheat Day Calender</h1>
                 <div>
-                    <Link to="/meals">Home</Link> | {" "}
-                    <Link to="/meals/new">Log New Cheat Meal</Link>
+                    <button class="btn btn-primary">
+                        <Link to="/meals">Home</Link>
+                    </button>
+                    {" "}
+                    <button class="btn btn-primary">
+                        <Link to="/meals/new">Log New Cheat Meal</Link>
+                    </button>
                 </div>
 
             </div>
