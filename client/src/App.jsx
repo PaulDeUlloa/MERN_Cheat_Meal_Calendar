@@ -4,13 +4,17 @@ import Dashboard from "./views/Dashboard";
 import CreateMeal from "./views/CreateMeal";
 import UpdateMeal from "./views/UpdateMeal";
 import NavBar from "./components/NavBar";
+import Calendar from "./components/Calendar";
+
 
 
 function App() {
   return (
     <div className="App">
       <NavBar />
+      
     <Routes>
+      <Route path="/" element={<Calendar />} />
       <Route path="/meals" element={<Dashboard />} />
       <Route path="/meals/new" element={<CreateMeal />} />
       <Route path="/meals/:id/edit" element={<UpdateMeal />} />
