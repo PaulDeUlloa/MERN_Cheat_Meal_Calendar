@@ -44,3 +44,8 @@
 .navTitle{
   color: black;
 }
+
+#navBtn{
+  text-decoration: none;
+  color: rgb(64,168,254);
+}
