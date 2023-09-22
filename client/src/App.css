@@ -49,3 +49,7 @@
   text-decoration: none;
   color: rgb(64,168,254);
 }
+
+.form-control{
+  padding: 20px;
+}
