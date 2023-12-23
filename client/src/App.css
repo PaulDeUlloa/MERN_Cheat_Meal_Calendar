@@ -66,9 +66,14 @@
 }
 
 #mealName{
-  font-weight: 650;
+  font-weight: 625;
 }
 
 #table-row-naming-color{
   color: rgb(3,191,255);
+}
+
+#cheatMealCounterTitle{
+  margin-top: 30px;
+  margin-bottom: 15px;
 }

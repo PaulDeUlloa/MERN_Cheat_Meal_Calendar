@@ -30,7 +30,7 @@ const Dashboard = () => {
 
   return (
     <div>
-      <h2>Cheat Meal Counter: 4</h2>
+      <h2 id="cheatMealCounterTitle">Cheat Meal Counter: 4</h2>
       <table class="table table-striped">
         <thead>
           <tr>
