@@ -69,9 +69,9 @@ const UpdateMeal = () => {
         </div>
         <div>
           <Link to="/meals">
-            <button className="btn-btn light">Cancel</button>
+            <button class="btn btn-light">Cancel</button>
           </Link>{" "}
-          <input type="submit" value="Submit" />
+          <input class="btn btn-light" type="submit" value="Submit" />
         </div>
       </form>
       {errors.map((err, idx) => {
