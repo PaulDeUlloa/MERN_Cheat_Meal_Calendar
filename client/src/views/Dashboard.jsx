@@ -34,15 +34,15 @@ const Dashboard = () => {
       <table class="table table-striped">
         <thead>
           <tr>
-            <th>Meal Name: </th>
-            <th>Actions</th>
+            <th id="table-row-naming-color">Meal Name: </th>
+            <th id="table-row-naming-color">Actions</th>
           </tr>
         </thead>
         <tbody>
           {mealList.map((oneMeal, idx) => {
             return (
               <tr key={idx}>
-                <td>{oneMeal.name}</td>
+                <td id="mealName">{oneMeal.name}</td>
                 <td id="actionsSpacing">
                   <Link to={`/meals/${oneMeal._id}/edit`}>
                     <button class="btn btn-light">Edit</button>

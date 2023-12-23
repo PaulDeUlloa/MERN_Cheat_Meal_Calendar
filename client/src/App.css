@@ -64,3 +64,11 @@
   gap: 20px;
 
 }
+
+#mealName{
+  font-weight: 650;
+}
+
+#table-row-naming-color{
+  color: rgb(3,191,255);
+}
