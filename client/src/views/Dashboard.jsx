@@ -43,7 +43,7 @@ const Dashboard = () => {
             return (
               <tr key={idx}>
                 <td>{oneMeal.name}</td>
-                <td>
+                <td id="actionsSpacing">
                   <Link to={`/meals/${oneMeal._id}/edit`}>
                     <button class="btn btn-light">Edit</button>
                   </Link>
