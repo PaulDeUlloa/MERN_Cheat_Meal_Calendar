@@ -45,11 +45,11 @@ const Dashboard = () => {
                 <td>{oneMeal.name}</td>
                 <td>
                   <Link to={`/meals/${oneMeal._id}/edit`}>
-                    <button class="btn-btn light">Edit</button>
+                    <button class="btn btn-light">Edit</button>
                   </Link>
                   <Link>
                     <button
-                      class="btn-btn light"
+                      class="btn btn-light"
                       onClick={() => handleDelete(oneMeal._id)}
                     >
                       Delete
