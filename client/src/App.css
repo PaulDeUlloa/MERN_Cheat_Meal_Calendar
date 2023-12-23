@@ -73,7 +73,17 @@
   color: rgb(3,191,255);
 }
 
-#cheatMealCounterTitle{
+#cheatMealCounterTitle  {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+#editMealTitle{
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+#addDelicacy{
   margin-top: 30px;
   margin-bottom: 15px;
 }

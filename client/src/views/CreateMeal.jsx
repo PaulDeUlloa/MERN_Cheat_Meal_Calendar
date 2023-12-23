@@ -29,7 +29,7 @@ const CreateMeal = () => {
 
   return (
     <div>
-      <h2 class="m-5">Add Delicacy:</h2>
+      <h2 id="addDelicacy">Add Delicacy:</h2>
       <form class="form-control" onSubmit={submitHandler}>
         <div class="row mb-3">
           <label class="col-sm-2 col-form-label">Name: </label>
