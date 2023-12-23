@@ -31,7 +31,7 @@ const Dashboard = () => {
   return (
     <div>
       <h2 id="cheatMealCounterTitle">Cheat Meal Counter: 4</h2>
-      <table class="table table-striped">
+      <table class="table table-striped table-hover">
         <thead>
           <tr>
             <th id="table-row-naming-color">Meal Name: </th>
