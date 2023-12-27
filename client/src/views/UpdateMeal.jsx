@@ -41,7 +41,7 @@ const UpdateMeal = () => {
   };
 
   return (
-    <div>
+    <div id="bodySpacing">
       <h2 id="editMealTitle">Edit meal:</h2>
       <form class="form-control" onSubmit={submitHandler}>
         <div class="row mb-3">
