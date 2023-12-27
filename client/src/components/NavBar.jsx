@@ -4,7 +4,11 @@ const NavBar = () => {
   return (
     <nav class="navbar">
       <div class="container text-end">
-        <h1 class="navTitle">Cheat Day Calender</h1>
+        <h1 class="navTitle">
+          <Link id="navBtn" to="/">
+            Cheat Day Calender
+          </Link>
+        </h1>
         <div>
           <button class="btn btn-dark">
             <Link id="navBtn" to="/">
