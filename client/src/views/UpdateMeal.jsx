@@ -42,7 +42,7 @@ const UpdateMeal = () => {
 
   return (
     <div>
-      <h2 id="editMealTitle">Edit this meal:</h2>
+      <h2 id="editMealTitle">Edit meal:</h2>
       <form class="form-control" onSubmit={submitHandler}>
         <div class="row mb-3">
           <label class="col-sm-2 col-form-label">Name: </label>
