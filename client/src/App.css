@@ -54,6 +54,10 @@
   padding: 30px;
 }
 
+#bodySpacing{
+  padding: 0 10%;
+}
+
 #actionsSpacing{
   display: flex;
   flex-direction: row;
