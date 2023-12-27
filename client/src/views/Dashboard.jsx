@@ -35,7 +35,7 @@ const Dashboard = () => {
         <thead>
           <tr>
             <th id="table-row-naming-color">Meal Name: </th>
-            <th id="table-row-naming-color">Actions</th>
+            <th id="table-row-naming-color">Actions:</th>
           </tr>
         </thead>
         <tbody>
