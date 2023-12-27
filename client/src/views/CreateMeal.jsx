@@ -28,7 +28,7 @@ const CreateMeal = () => {
   };
 
   return (
-    <div>
+    <div id="bodySpacing">
       <h3 id="addDelicacy">Add Delicacy:</h3>
       <form class="form-control" onSubmit={submitHandler}>
         <div class="row mb-3">
