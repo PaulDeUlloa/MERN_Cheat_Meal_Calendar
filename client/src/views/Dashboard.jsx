@@ -29,7 +29,7 @@ const Dashboard = () => {
   };
 
   return (
-    <div>
+    <div id="bodySpacing">
       <h3 id="cheatMealCounterTitle">Cheat Meals:</h3>
       <table class="table table-striped table-hover">
         <thead>
