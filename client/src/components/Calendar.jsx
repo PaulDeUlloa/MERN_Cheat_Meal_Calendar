@@ -3,8 +3,17 @@ import Fullcalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
+import * as bootstrap from "bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Calendar() {
+  const events = [
+    {
+      title: "Test Title",
+      start: "2023-12-05T08:00:00",
+      end: "2023-12-05T09:00:00",
+    },
+  ];
   return (
     <div>
       <Fullcalendar
@@ -18,6 +27,7 @@ function Calendar() {
         height={"80vh"}
         //!viewport height
         //?It works like the percentage unit as well. Specifying 10vh is equivalent to occupying 10% of entire visible screen height.
+        events={events}
       />
     </div>
   );
