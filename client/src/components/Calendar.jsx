@@ -28,6 +28,16 @@ function Calendar() {
         //!viewport height
         //?It works like the percentage unit as well. Specifying 10vh is equivalent to occupying 10% of entire visible screen height.
         events={events}
+        eventDidMount={(info) => {
+          return new bootstrap.Popover(info.el, {
+            title: info.event.title,
+            placement: "auto",
+            trigger: "hover",
+            customClass: "popoverStyle",
+            content: "<p> This is a test paragraph for the calender!</p>",
+            html: true,
+          });
+        }}
       />
     </div>
   );
