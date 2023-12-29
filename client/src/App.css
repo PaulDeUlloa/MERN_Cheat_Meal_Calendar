@@ -48,7 +48,7 @@
 #navBtn{
   text-decoration: none;
   color:  rgb(3,191,255);
-  background-color: aqua;
+  btn-link-hover-color: red;
 }
 
 .form-control{

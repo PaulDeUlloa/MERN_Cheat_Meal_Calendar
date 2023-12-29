@@ -31,7 +31,7 @@ const CreateMeal = () => {
     <div id="bodySpacing">
       <h3 id="addDelicacy">Add Delicacy:</h3>
       <form class="form-control" onSubmit={submitHandler}>
-        <div class="row mb-3">
+        <div class="row mb-3 mt-3">
           <label class="col-sm-2 col-form-label">Name: </label>
           <div class="col-sm-8">
             <input
@@ -43,7 +43,7 @@ const CreateMeal = () => {
             />
           </div>
         </div>
-        <div class="row mb-3">
+        <div class="row mb-3 mt-3">
           <label class="col-sm-2 col-form-label">Select Date: </label>
           <div class="col-sm-8">
             <input
@@ -54,7 +54,7 @@ const CreateMeal = () => {
             />
           </div>
         </div>
-        <div>
+        <div class="mb-3 mt-4">
           <Link to="/meals">
             <button class="btn btn-light">Cancel</button>
           </Link>{" "}
