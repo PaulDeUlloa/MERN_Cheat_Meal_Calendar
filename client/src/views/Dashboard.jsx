@@ -29,10 +29,18 @@ const Dashboard = () => {
   };
 
   function changeBackground(e) {
-    e.target.style.background = "red";
+    e.target.style.background = "LightCoral";
   }
 
   function changeBackgroundWhite(e) {
+    e.target.style.background = "white";
+  }
+
+  function changeBackground2(e) {
+    e.target.style.background = "Aquamarine";
+  }
+
+  function changeBackgroundWhite2(e) {
     e.target.style.background = "white";
   }
 
@@ -53,7 +61,13 @@ const Dashboard = () => {
                 <td id="mealName">{oneMeal.name}</td>
                 <td id="actionsSpacing">
                   <Link to={`/meals/${oneMeal._id}/edit`}>
-                    <button class="btn btn-light">Edit</button>
+                    <button
+                      onMouseEnter={changeBackground2}
+                      onMouseLeave={changeBackgroundWhite2}
+                      class="btn btn-light"
+                    >
+                      Edit
+                    </button>
                   </Link>
                   <Link>
                     <button
