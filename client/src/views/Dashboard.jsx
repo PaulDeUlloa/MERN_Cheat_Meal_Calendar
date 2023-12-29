@@ -32,7 +32,7 @@ const Dashboard = () => {
     e.target.style.background = "red";
   }
 
-  function changeBackgroundBlack(e) {
+  function changeBackgroundWhite(e) {
     e.target.style.background = "white";
   }
 
@@ -57,6 +57,8 @@ const Dashboard = () => {
                   </Link>
                   <Link>
                     <button
+                      onMouseEnter={changeBackground}
+                      onMouseLeave={changeBackgroundWhite}
                       class="btn btn-light"
                       onClick={() => handleDelete(oneMeal._id)}
                     >
