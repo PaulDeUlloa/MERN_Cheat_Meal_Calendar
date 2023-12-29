@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 import "../index.js";
 
+function changeBackground(e) {
+  e.target.style.background = "white";
+}
+
 const NavBar = () => {
   return (
     <nav class="navbar">
@@ -11,17 +15,17 @@ const NavBar = () => {
           </Link>
         </h1>
         <div>
-          <button class="btn btn-dark">
+          <button onMouseOver={changeBackground} class="btn btn-dark">
             <Link id="navBtn" to="/">
               Calendar
             </Link>
           </button>{" "}
-          <button class="btn btn-dark">
+          <button onMouseOver={changeBackground} class="btn btn-dark">
             <Link id="navBtn" to="/meals">
               Home
             </Link>
           </button>{" "}
-          <button class="btn btn-dark">
+          <button onMouseOver={changeBackground} class="btn btn-dark">
             <Link id="navBtn" to="/meals/new">
               Log New Cheat Meal
             </Link>
