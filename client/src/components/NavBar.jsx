@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "../index.js";
 
 const NavBar = () => {
   return (
@@ -9,7 +10,7 @@ const NavBar = () => {
             Cheat Day Calender
           </Link>
         </h1>
-        <div>
+        <div onmouseover="scale(this, 1.08)" onmouseleave="scale(this, 1)">
           <button class="btn btn-dark">
             <Link id="navBtn" to="/">
               Calendar

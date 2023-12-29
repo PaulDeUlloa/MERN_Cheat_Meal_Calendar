@@ -12,3 +12,7 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>
 );
+
+function scale(element, value) {
+  element.style.transform = "scale(" + value + ")";
+}
