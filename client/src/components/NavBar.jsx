@@ -10,7 +10,7 @@ const NavBar = () => {
             Cheat Day Calender
           </Link>
         </h1>
-        <div onmouseover="scale(this, 1.08)" onmouseleave="scale(this, 1)">
+        <div>
           <button class="btn btn-dark">
             <Link id="navBtn" to="/">
               Calendar
