@@ -48,6 +48,7 @@
 #navBtn{
   text-decoration: none;
   color:  rgb(3,191,255);
+  background-color: aqua;
 }
 
 .form-control{
@@ -92,6 +93,4 @@
   margin-bottom: 15px;
 }
 
-.btn btn-dark{
-  hover: color yellow;
-}
+
