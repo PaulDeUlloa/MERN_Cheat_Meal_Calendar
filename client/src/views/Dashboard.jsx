@@ -28,6 +28,14 @@ const Dashboard = () => {
     setMealList(filteredList);
   };
 
+  function changeBackground(e) {
+    e.target.style.background = "red";
+  }
+
+  function changeBackgroundBlack(e) {
+    e.target.style.background = "white";
+  }
+
   return (
     <div id="bodySpacing">
       <h3 id="cheatMealCounterTitle">Cheat Meals:</h3>
