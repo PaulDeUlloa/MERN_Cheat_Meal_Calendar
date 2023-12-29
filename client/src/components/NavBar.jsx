@@ -5,6 +5,10 @@ function changeBackground(e) {
   e.target.style.background = "white";
 }
 
+function changeBackgroundBlack(e) {
+  e.target.style.background = "#212529";
+}
+
 const NavBar = () => {
   return (
     <nav class="navbar">
@@ -15,17 +19,29 @@ const NavBar = () => {
           </Link>
         </h1>
         <div>
-          <button onMouseOver={changeBackground} class="btn btn-dark">
+          <button
+            onMouseEnter={changeBackground}
+            onMouseLeave={changeBackgroundBlack}
+            class="btn btn-dark"
+          >
             <Link id="navBtn" to="/">
               Calendar
             </Link>
           </button>{" "}
-          <button onMouseOver={changeBackground} class="btn btn-dark">
+          <button
+            onMouseEnter={changeBackground}
+            onMouseLeave={changeBackgroundBlack}
+            class="btn btn-dark"
+          >
             <Link id="navBtn" to="/meals">
               Home
             </Link>
           </button>{" "}
-          <button onMouseOver={changeBackground} class="btn btn-dark">
+          <button
+            onMouseEnter={changeBackground}
+            onMouseLeave={changeBackgroundBlack}
+            class="btn btn-dark"
+          >
             <Link id="navBtn" to="/meals/new">
               Log New Cheat Meal
             </Link>
