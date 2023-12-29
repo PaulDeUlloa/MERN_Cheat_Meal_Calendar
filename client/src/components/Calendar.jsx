@@ -13,6 +13,11 @@ function Calendar() {
       start: "2023-12-05T08:00:00",
       end: "2023-12-05T09:00:00",
     },
+    {
+      title: "Test Title2",
+      start: "2023-12-10T08:00:00",
+      end: "2023-12-10T09:00:00",
+    },
   ];
   return (
     <div>
