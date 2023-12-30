@@ -48,6 +48,7 @@
 #navBtn{
   text-decoration: none;
   color:  rgb(3,191,255);
+  font-weight: 600;
 }
 
 .form-control{
