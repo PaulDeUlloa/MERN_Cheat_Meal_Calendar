@@ -47,8 +47,8 @@ const Dashboard = () => {
   return (
     <div id="bodySpacing">
       <h3 id="cheatMealCounterTitle">Cheat Meals</h3>
-      <table class="table table-striped table-hover">
-        <thead>
+      <table class="table table-hover">
+        <thead class="table-light">
           <tr>
             <th id="table-row-naming-color">Meal Name: </th>
             <th id="table-row-naming-color">Actions:</th>
@@ -58,10 +58,13 @@ const Dashboard = () => {
           {mealList.map((oneMeal, idx) => {
             return (
               <tr key={idx}>
-                <td id="mealName">{oneMeal.name}</td>
-                <td id="actionsSpacing">
+                <td class="table-primary" id="mealName">
+                  {oneMeal.name}
+                </td>
+                <td class="table-primary" id="actionsSpacing">
                   <Link to={`/meals/${oneMeal._id}/edit`}>
                     <button
+                      id="editDeleteButtonsFont"
                       onMouseEnter={changeBackground2}
                       onMouseLeave={changeBackgroundWhite2}
                       class="btn btn-light"
@@ -71,6 +74,7 @@ const Dashboard = () => {
                   </Link>
                   <Link>
                     <button
+                      id="editDeleteButtonsFont"
                       onMouseEnter={changeBackground}
                       onMouseLeave={changeBackgroundWhite}
                       class="btn btn-light"
