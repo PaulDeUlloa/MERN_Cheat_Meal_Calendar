@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 import "../index.js";
 
 function changeBackground(e) {
-  e.target.style.background = "white";
+  e.target.style.background = "rgb(0,191,255)";
 }
 
 function changeBackgroundBlack(e) {
-  e.target.style.background = "#212529";
+  e.target.style.background = "white";
 }
 
 const NavBar = () => {
@@ -22,7 +22,7 @@ const NavBar = () => {
           <button
             onMouseEnter={changeBackground}
             onMouseLeave={changeBackgroundBlack}
-            class="btn btn-dark"
+            class="btn btn-light"
           >
             <Link id="navBtn" to="/">
               Calendar
@@ -31,7 +31,7 @@ const NavBar = () => {
           <button
             onMouseEnter={changeBackground}
             onMouseLeave={changeBackgroundBlack}
-            class="btn btn-dark"
+            class="btn btn-light"
           >
             <Link id="navBtn" to="/meals">
               Home
@@ -40,10 +40,10 @@ const NavBar = () => {
           <button
             onMouseEnter={changeBackground}
             onMouseLeave={changeBackgroundBlack}
-            class="btn btn-dark"
+            class="btn btn-light"
           >
             <Link id="navBtn" to="/meals/new">
-              Log New Cheat Meal
+              Add Cheat Meal
             </Link>
           </button>
         </div>
