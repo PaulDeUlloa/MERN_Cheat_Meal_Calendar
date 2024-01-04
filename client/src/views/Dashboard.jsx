@@ -58,10 +58,10 @@ const Dashboard = () => {
           {mealList.map((oneMeal, idx) => {
             return (
               <tr key={idx}>
-                <td class="table-primary" id="mealName">
+                <td class="table-info" id="mealName">
                   {oneMeal.name}
                 </td>
-                <td class="table-primary" id="actionsSpacing">
+                <td class="table-danger" id="actionsSpacing">
                   <Link to={`/meals/${oneMeal._id}/edit`}>
                     <button
                       id="editDeleteButtonsFont"
