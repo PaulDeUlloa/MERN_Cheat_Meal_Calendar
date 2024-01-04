@@ -14,7 +14,7 @@ const NavBar = () => {
     <nav class="navbar">
       <div class="container text-end">
         <h1 class="navTitle">
-          <Link id="navBtn" to="/">
+          <Link id="navBarTitle" to="/">
             Cheat Day Calender
           </Link>
         </h1>

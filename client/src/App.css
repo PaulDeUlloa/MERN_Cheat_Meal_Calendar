@@ -53,6 +53,12 @@
   font-weight: 700;
 }
 
+#navBarTitle{
+  text-decoration: none;
+  color:  rgb(255, 255, 255);
+  font-weight: 700;
+}
+
 .form-control{
   padding: 30px;
 }
