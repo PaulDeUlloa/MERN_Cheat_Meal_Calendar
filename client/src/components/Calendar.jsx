@@ -9,9 +9,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function Calendar() {
   const events = [
     {
-      title: "Test Title",
-      start: "2023-12-05T08:00:00",
-      end: "2023-12-05T09:00:00",
+      title: "Deluxe Chocolate Cake",
+      start: "2024-01-03T08:00:00",
+      end: "2024-01-03T09:00:00",
     },
   ];
   return (
@@ -34,11 +34,21 @@ function Calendar() {
             placement: "auto",
             trigger: "hover",
             customClass: "popoverStyle",
-            content: "<p> This is a test paragraph for the calender!</p>",
+            content: "<p> Two servings of cake while at Matthews birthday</p>",
             html: true,
           });
         }}
       />
+      <footer id="footerCopyrightCalenderWidth">
+        <p id="copyrightParagraphColor">
+          Copyright &copy;2023 Cheat Day Calender; Designed by,
+          <span id="copyrightSpan">
+            <a id="copyrightAnchor" href="https://github.com/PaulDeUlloa">
+              p. de ulloa
+            </a>
+          </span>
+        </p>
+      </footer>
     </div>
   );
 }

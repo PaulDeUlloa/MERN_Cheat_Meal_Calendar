@@ -64,6 +64,16 @@ const CreateMeal = () => {
       {errors.map((err, idx) => {
         return <p key={idx}>{err}</p>;
       })}
+      <footer id="footerCopyright">
+        <p id="copyrightParagraphColor">
+          Copyright &copy;2023 Cheat Day Calender; Designed by,
+          <span id="copyrightSpan">
+            <a id="copyrightAnchor" href="https://github.com/PaulDeUlloa">
+              p. de ulloa
+            </a>
+          </span>
+        </p>
+      </footer>
     </div>
   );
 };

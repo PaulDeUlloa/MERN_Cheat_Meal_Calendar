@@ -107,3 +107,41 @@
 }
 
 
+/* footer */
+#footerCopyright{
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  width: 80%; 
+  position: absolute; 
+  bottom: 0; 
+  height: 2.5rem; 
+}
+
+#footerCopyrightCalenderWidth{
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  width: 100%; 
+  position: absolute; 
+  bottom: 0; 
+  height: 2.5rem; 
+}
+
+#copyrightAnchor{
+  text-decoration: none; 
+  color: rgb(255, 255, 255);
+}
+
+#copyrightParagraphColor{
+  color: rgb(156, 156, 156);
+}
+
+#copyrightSpan{
+  opacity: 0.8; 
+  text-transform: uppercase; 
+  font-weight: 300; 
+  margin: 0px 5px;
+}
+
+
