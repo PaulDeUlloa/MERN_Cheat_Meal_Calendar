@@ -41,7 +41,7 @@ function Calendar() {
       />
       <footer id="footerCopyrightCalenderWidth">
         <p id="copyrightParagraphColor">
-          Copyright &copy;2023 Cheat Day Calendar; Designed by,
+          Copyright &copy;2024 Cheat Day Calendar; Designed by,
           <span id="copyrightSpan">
             <a id="copyrightAnchor" href="https://github.com/PaulDeUlloa">
               p. de ulloa
